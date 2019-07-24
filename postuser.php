@@ -26,7 +26,7 @@ if (array_key_exists('token', $data)) {
       echo json_encode($error);
   }
 } else {
-    $error = array('message' => 'invalid access');
+    $error = array('message' => 'No token');
     echo json_encode($error);    
 }
 
